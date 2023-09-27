@@ -39,9 +39,10 @@ The car has the following hardware components:
 - A LM7805 DC regulator that converts the battery voltage to 5V
 - A L293 H-bridge that controls the direction of the motors
 - A 74HC14 hex inverter that converts the DC voltage to AC voltage for the sensors
-- Four sensors: three down-sensing (left, center, right) and one forward-sensing (bumper)
+- Four Bright Sensing Sensors: three down-sensing (left, center, right) and one forward-sensing (bumper)
 - Two motors: left and right of the bot
 - A microcontroller board with an Arduino Nano
+- Caster wheel for stability
 
 The sensors are connected to the analog pins A0, A1, A2, and A3 of the board through the inverter. The motors are controlled by the digital pins D3, D4, D5, and D6 of the board through the H-bridge. The direction and speed of the motors are determined by the DIR and PWM signals respectively.
 
